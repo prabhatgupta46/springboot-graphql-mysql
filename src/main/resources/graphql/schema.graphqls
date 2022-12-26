@@ -1,0 +1,45 @@
+type Book {
+    id: String
+    title: String
+    pages: Int
+    rating: Int
+    author: String
+}
+
+type Query {
+    allBooks: [Book]
+    findByAuthor(author: String): Book
+}
+
+type Mutation {
+    createBook(title: String!, pages: Int, rating: Int, author: String): Book!
+}
+
+type TravelRecord {
+    travelId: String
+    bookingCode: String
+    traveller: [Traveller]
+    airline: String
+    source: String
+    destination: String
+}
+
+type Traveller {
+    travellerId : String
+    firstName : String
+    lastName : String
+    passportNo : String
+    age : Int
+}
+
+type Query {
+    allTravelRecords: [TravelRecord]
+    recordsByAirline(airline: String): [TravelRecord]
+    recordsBySourceDestination(source: String, destination: String): [TravelRecord]
+    recordsByBookingCode(bookingCode: String): TravelRecord
+
+}
+
+type Mutation {
+    createTravelRecord(): TravelRecord
+}

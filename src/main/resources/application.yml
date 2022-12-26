@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.driver
+    url: jdbc:mysql://192.168.56.170:3306/skyscanner
+    username: sky_db_owner
+    password: password123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+graphql:
+  graphiql:
+    enabled: true

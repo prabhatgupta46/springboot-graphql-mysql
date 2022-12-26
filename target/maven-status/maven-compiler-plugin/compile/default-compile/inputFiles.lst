@@ -1,0 +1,7 @@
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/SkyScannerApplication.java
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/resolvers/BookController.java
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/domain/Traveller.java
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/domain/TravelDetails.java
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/repo/BookRepository.java
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/SkyscannerApplication.java
+/home/prabhat/learning/learning/microservices/springboot-graphql/skyscanner-mysql/src/main/java/com/api/skyscanner/domain/Book.java
