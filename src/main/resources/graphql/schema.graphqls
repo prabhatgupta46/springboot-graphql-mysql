@@ -25,11 +25,11 @@ type TravelRecord {
 }
 
 type Traveller {
-    travellerId : String
-    firstName : String
-    lastName : String
-    passportNo : String
-    age : Int
+    travellerId: String
+    firstName: String
+    lastName: String
+    passportNo: String
+    age: Int
 }
 
 type Query {
